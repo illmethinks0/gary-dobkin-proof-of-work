@@ -1,11 +1,14 @@
 # Proof Briefs
 
-This folder is reserved for short, role-specific proof briefs that can be shared with applications.
+Short, role-specific proof briefs that can be shared with applications.
 
-Planned briefs:
+## Available Briefs
 
-- AI Systems Proof Brief
-- Customer Success + AI Operations Proof Brief
+- [AI Systems Proof Brief](ai-systems-proof-brief-gary-dobkin.pdf)
+- [Customer Success + AI Operations Proof Brief](customer-success-ai-operations-proof-brief-gary-dobkin.pdf)
+
+## Planned
+
 - Security Deployment Operations Proof Brief
 
-These will stay sanitized and will not include private source code, customer data, logs, secrets, or infrastructure identifiers.
+These stay sanitized and do not include private source code, customer data, logs, secrets, or infrastructure identifiers.

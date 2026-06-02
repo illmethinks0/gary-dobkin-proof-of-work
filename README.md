@@ -33,6 +33,14 @@ I build and operate systems where AI has to do real work, not just produce a dem
 - 2026-06-02: [Customer Success + AI Operations](case-studies/customer-success-ai-operations.md)
 - 2026-06-02: [Global Security Deployment](case-studies/global-security-deployment.md)
 
+## Artifacts
+
+- [Sanitized production agent workflow diagram](assets/architecture-diagrams/production-agent-workflow.md)
+- [Fake-data AI compliance workflow example](examples/fake-data-ai-compliance-workflow.md)
+- [AI Systems Proof Brief](proof-briefs/ai-systems-proof-brief-gary-dobkin.pdf)
+- [Customer Success + AI Operations Proof Brief](proof-briefs/customer-success-ai-operations-proof-brief-gary-dobkin.pdf)
+- [Simple proof page](https://illmethinks0.github.io/gary-dobkin-proof-of-work/)
+
 ## What This Proves
 
 - I have built beyond the resume bullet. The work includes product definition, implementation, deployment posture, support workflows, and operating cadence.

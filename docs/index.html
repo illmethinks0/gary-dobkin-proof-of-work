@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gary Dobkin - Proof of Work</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f7f4;
+        --text: #181a1f;
+        --muted: #5a6472;
+        --line: #d9ddd3;
+        --accent: #0f766e;
+        --panel: #ffffff;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1115;
+          --text: #f2f4f8;
+          --muted: #a8b0bb;
+          --line: #303642;
+          --accent: #5eead4;
+          --panel: #171b22;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+
+      header {
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 28px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 5vw, 4rem);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 36px 0 14px;
+        font-size: 1.35rem;
+      }
+
+      p {
+        max-width: 760px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .lede {
+        color: var(--muted);
+        font-size: 1.15rem;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        margin-top: 22px;
+      }
+
+      .grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .card h3 {
+        margin: 0 0 8px;
+        font-size: 1.05rem;
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        margin-top: 44px;
+        padding-top: 20px;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Gary Dobkin</h1>
+        <p class="lede">Founder/operator building production AI workflows with durable state, structured outputs, approval gates, evidence, and operating discipline.</p>
+        <nav class="links" aria-label="Primary links">
+          <a href="https://paput.ai">Paput.ai</a>
+          <a href="https://www.linkedin.com/in/gvbd">LinkedIn</a>
+          <a href="https://github.com/illmethinks0">GitHub</a>
+          <a href="mailto:gary@paput.ai">gary@paput.ai</a>
+        </nav>
+      </header>
+
+      <section>
+        <h2>Proof Notes</h2>
+        <div class="grid">
+          <article class="card">
+            <h3><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/case-studies/production-agent-systems.md">Production Agent Systems</a></h3>
+            <p>State, queues, narrow agents, validation, evidence, approval gates, monitoring, and isolated compute paths.</p>
+          </article>
+          <article class="card">
+            <h3><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/case-studies/customer-success-ai-operations.md">Customer Success + AI Operations</a></h3>
+            <p>Workflow ownership, handoffs, health signals, review gates, adoption, and measurable time-to-value.</p>
+          </article>
+          <article class="card">
+            <h3><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/case-studies/global-security-deployment.md">Global Security Deployment</a></h3>
+            <p>Security onboarding across SIEM, IDS/IPS, EDR/MDR, readiness, SLAs, escalation, and executive reporting.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Artifacts</h2>
+        <ul>
+          <li><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/assets/architecture-diagrams/production-agent-workflow.md">Sanitized production agent workflow diagram</a></li>
+          <li><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/examples/fake-data-ai-compliance-workflow.md">Fake-data AI compliance workflow example</a></li>
+          <li><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/proof-briefs/ai-systems-proof-brief-gary-dobkin.pdf">AI Systems Proof Brief</a></li>
+          <li><a href="https://github.com/illmethinks0/gary-dobkin-proof-of-work/blob/main/proof-briefs/customer-success-ai-operations-proof-brief-gary-dobkin.pdf">Customer Success + AI Operations Proof Brief</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Background</h2>
+        <ul>
+          <li>Founded and exited a 12-year MSP serving 50+ HIPAA-sensitive veterinary hospitals.</li>
+          <li>Built customer success at Perch Security through acquisition by ConnectWise, reaching 1.7% churn, 96%+ CSAT, and 97% NPS.</li>
+          <li>Directed global security deployment operations at ConnectWise across 18 products, 3 regions, and 200+ monthly projects.</li>
+        </ul>
+      </section>
+
+      <footer>
+        Sanitized public proof. No private source code, customer data, secrets, logs, or infrastructure identifiers.
+      </footer>
+    </main>
+  </body>
+</html>
