@@ -52,10 +52,19 @@ The current orchestration can run through Rails and Solid Queue, but heavier sca
 - Firecracker path for heavier workloads, higher scan volume, and concurrent agent execution.
 - Monitoring patterns around queues, runtime behavior, cost, stale work, and reporting.
 
+## Related Systems I Have Built
+
+The same pattern shows up across several private systems I have been building:
+
+- compliance scanner work with dispatch records, signed callbacks, checksum-backed artifacts, and audit evidence;
+- operational SaaS work with reviewable agent actions, approval requests, change-event history, message intake, customer portal, billing, inventory, knowledge, and reports;
+- risk-gated agent runtime work with paper-mode defaults, proposal-card evidence, deterministic inputs, scheduler/dashboard surfaces, capital-floor controls, and kill switches;
+- agent monitoring work for local and remote AI instances;
+- developer workflow tooling that loads project instructions and turns LLM review/build/debug loops into repeatable commands.
+
 ## What I Would Improve Next
 
-- Add sanitized architecture diagrams.
-- Publish a redacted example workflow from intake to final evidence bundle.
+- Add more fake-data examples from intake to final evidence bundle.
 - Add screenshots from a demo environment rather than an active product environment.
 
 ## What This Proves

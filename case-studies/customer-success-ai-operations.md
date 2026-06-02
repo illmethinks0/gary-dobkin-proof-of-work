@@ -58,6 +58,7 @@ The question is not "can we use an agent here?" The question is "will this reduc
 - Achieved 1.7% churn, 96%+ CSAT, and 97% NPS.
 - Built operating cadence, customer health workflows, onboarding motion, support loops, product feedback, and automation.
 - Applied the same operating model to AI workflows: task state, approval boundaries, evidence capture, and measurable adoption.
+- Built or planned operational systems around field-service dispatch, message intake, customer portals, document automation, inventory workflows, and reviewable AI-assisted actions.
 
 ## What I Would Improve Next
 
