@@ -1,0 +1,1 @@
+# gary-dobkin-proof-of-work
